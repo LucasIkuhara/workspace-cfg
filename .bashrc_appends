@@ -1,0 +1,5 @@
+
+# Enable TMUX if it has no sessions
+if [[ -z "${TMUX}" ]]; then
+  tmux
+fi
