@@ -1,6 +1,9 @@
 #!/bin/sh
 sudo apt update && sudo apt upgrade
-sudo apt install tmux
+sudo apt install -y tmux git
+
+sudo snap install neovim --classic
+sudo snap install lazygit
 
 # Install tmux plugin manager
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
