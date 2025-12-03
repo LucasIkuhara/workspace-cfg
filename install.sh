@@ -23,3 +23,5 @@ curl -sSL https://install.python-poetry.org | python3 -
 
 # Link files
 ln -s nvim/ ~/.config/nvim
+ln .tmux.conf ~/.tmux.conf
+
