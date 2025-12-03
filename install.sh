@@ -1,8 +1,8 @@
 #!/bin/sh
 sudo apt update && sudo apt upgrade
-sudo apt install -y tmux git
+sudo apt install -y tmux git snapd
 
-sudo snap install neovim --classic
+sudo snap install nvim --classic
 sudo snap install lazygit
 
 # Configure git
