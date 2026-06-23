@@ -12,9 +12,6 @@ git config --global user.email "lri2911@gmail.com"
 # Install tmux plugin manager
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
-# Install oh-my-bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
-
 # Install Asf
 sudo curl -s https://raw.githubusercontent.com/LucasIkuhara/asf/main/install.sh | bash -s
 
@@ -25,3 +22,5 @@ curl -sSL https://install.python-poetry.org | python3 -
 ln -s nvim/ ~/.config/nvim
 ln .tmux.conf ~/.tmux.conf
 
+# Install oh-my-bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
