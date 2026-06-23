@@ -24,3 +24,4 @@ ln .tmux.conf ~/.tmux.conf
 
 # Install oh-my-bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+cat .bashrd_appends >> ~/.bashrc
