@@ -13,7 +13,7 @@ git config --global user.email "lri2911@gmail.com"
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 # Install Asf
-sudo curl -s https://raw.githubusercontent.com/LucasIkuhara/asf/main/install.sh | bash -s
+curl -s https://raw.githubusercontent.com/LucasIkuhara/asf/main/install.sh | sudo bash -s
 
 # Install poetry
 curl -sSL https://install.python-poetry.org | python3 -
